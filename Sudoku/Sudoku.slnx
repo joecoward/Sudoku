@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../Sudoku.WPF/Sudoku.WPF.csproj" Id="63522abb-840f-485d-bb8c-fa9b1dd9c8c1" />
+  <Project Path="Sudoku.csproj" />
+</Solution>
