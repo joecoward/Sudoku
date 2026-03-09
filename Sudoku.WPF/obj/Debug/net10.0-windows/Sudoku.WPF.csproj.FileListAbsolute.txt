@@ -52,3 +52,32 @@ D:\VS\Sudoku.repo\Sudoku.WPF\obj\Debug\net10.0-windows\refint\Sudoku.WPF.dll
 D:\VS\Sudoku.repo\Sudoku.WPF\obj\Debug\net10.0-windows\Sudoku.WPF.pdb
 D:\VS\Sudoku.repo\Sudoku.WPF\obj\Debug\net10.0-windows\Sudoku.WPF.genruntimeconfig.cache
 D:\VS\Sudoku.repo\Sudoku.WPF\obj\Debug\net10.0-windows\ref\Sudoku.WPF.dll
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\bin\Debug\net10.0-windows\Sudoku.deps.json
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\bin\Debug\net10.0-windows\Sudoku.runtimeconfig.json
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\bin\Debug\net10.0-windows\Sudoku.exe
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\bin\Debug\net10.0-windows\Sudoku.WPF.exe
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\bin\Debug\net10.0-windows\Sudoku.WPF.deps.json
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\bin\Debug\net10.0-windows\Sudoku.WPF.runtimeconfig.json
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\bin\Debug\net10.0-windows\Sudoku.WPF.dll
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\bin\Debug\net10.0-windows\Sudoku.WPF.pdb
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\bin\Debug\net10.0-windows\Sudoku.dll
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\bin\Debug\net10.0-windows\Sudoku.pdb
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\obj\Debug\net10.0-windows\Sudoku.WPF.csproj.AssemblyReference.cache
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\obj\Debug\net10.0-windows\MainWindow.g.cs
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\obj\Debug\net10.0-windows\App.g.cs
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\obj\Debug\net10.0-windows\Sudoku.WPF_MarkupCompile.cache
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\obj\Debug\net10.0-windows\Sudoku.WPF_MarkupCompile.lref
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\obj\Debug\net10.0-windows\MainWindow.baml
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\obj\Debug\net10.0-windows\Sudoku.WPF.g.resources
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\obj\Debug\net10.0-windows\Sudoku.WPF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\obj\Debug\net10.0-windows\Sudoku.WPF.AssemblyInfoInputs.cache
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\obj\Debug\net10.0-windows\Sudoku.WPF.AssemblyInfo.cs
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\obj\Debug\net10.0-windows\Sudoku.WPF.csproj.CoreCompileInputs.cache
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\obj\Debug\net10.0-windows\Sudoku.WPF.sourcelink.json
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\obj\Debug\net10.0-windows\Sudoku.WPF.csproj.Up2Date
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\obj\Debug\net10.0-windows\Sudoku.WPF.dll
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\obj\Debug\net10.0-windows\refint\Sudoku.WPF.dll
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\obj\Debug\net10.0-windows\Sudoku.WPF.pdb
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\obj\Debug\net10.0-windows\Sudoku.WPF.genruntimeconfig.cache
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\obj\Debug\net10.0-windows\ref\Sudoku.WPF.dll
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\obj\Debug\net10.0-windows\App.baml

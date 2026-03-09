@@ -26,3 +26,18 @@ D:\VS\Sudoku.repo\Sudoku\obj\Debug\net10.0\refint\Sudoku.dll
 D:\VS\Sudoku.repo\Sudoku\obj\Debug\net10.0\Sudoku.pdb
 D:\VS\Sudoku.repo\Sudoku\obj\Debug\net10.0\Sudoku.genruntimeconfig.cache
 D:\VS\Sudoku.repo\Sudoku\obj\Debug\net10.0\ref\Sudoku.dll
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku\bin\Debug\net10.0\Sudoku.exe
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku\bin\Debug\net10.0\Sudoku.deps.json
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku\bin\Debug\net10.0\Sudoku.runtimeconfig.json
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku\bin\Debug\net10.0\Sudoku.dll
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku\bin\Debug\net10.0\Sudoku.pdb
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku\obj\Debug\net10.0\Sudoku.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku\obj\Debug\net10.0\Sudoku.AssemblyInfoInputs.cache
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku\obj\Debug\net10.0\Sudoku.AssemblyInfo.cs
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku\obj\Debug\net10.0\Sudoku.csproj.CoreCompileInputs.cache
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku\obj\Debug\net10.0\Sudoku.sourcelink.json
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku\obj\Debug\net10.0\Sudoku.dll
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku\obj\Debug\net10.0\refint\Sudoku.dll
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku\obj\Debug\net10.0\Sudoku.pdb
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku\obj\Debug\net10.0\Sudoku.genruntimeconfig.cache
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku\obj\Debug\net10.0\ref\Sudoku.dll

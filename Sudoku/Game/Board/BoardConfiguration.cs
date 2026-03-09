@@ -5,10 +5,14 @@ namespace Sudoku.Game.BoardSettings
     public class BoardConfiguration 
     {
         private readonly Random _random = new Random();
-
         protected readonly int Column = 9;
         protected readonly int Row = 9;
         protected Cell[,] Field;
+
+        public BoardConfiguration()
+        {
+            BoardSetting();
+        }
 
         private void CreateBoard()
         {
@@ -117,14 +121,5 @@ namespace Sudoku.Game.BoardSettings
 
             }
         }
-
-        public BoardConfiguration()
-        {
-            BoardSetting();
-        }
-
-
-
-
     }
 }

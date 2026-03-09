@@ -7,8 +7,8 @@ namespace Sudoku
     {
         static void Main(string[] args)
         {
-            var game = new GameEngine();            
-            game.Start("Normal");
+            //var game = new GameEngine();            
+            //game.Start("Normal");
         }
 
     }

@@ -1,17 +1,8 @@
 ﻿using Sudoku.Game.BoardSettings;
 using Sudoku.Game.Rule;
-using System.Data;
-using System.Diagnostics;
-using System.Text;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace Sudoku.WPF
 {
@@ -37,11 +28,17 @@ namespace Sudoku.WPF
 
         private void CreateSudokuGrid()
         {
+            GameDifficulty _gameDifficulty = new GameDifficulty(_board);
+            _gameDifficulty.Difficulty("");
 
-            Difficulty("Normal");
+            var grid = new Grid()
+            {
+                Height = 450,
+                Width = 450,
+            };
+            
 
-            var grid = new Grid();
-            grid.ShowGridLines = true;
+
             for (int i = 0; i < 9; i++)
             {
                 grid.RowDefinitions.Add(new RowDefinition());
@@ -52,33 +49,27 @@ namespace Sudoku.WPF
             
             for (int r = 0; r < 9; r++)
             {
+                var top = (r % 3 == 0) ? 3 : 1;
+
+                var bottom = (r == 8) ? 3 : 0;
+
                 for (int c = 0; c < 9; c++)
                 {
-                    var text = new TextBlock
-                    {
+                    
+                    var left = (c % 3 == 0) ? 3 : 1;
+                    var right = (c == 8) ? 3 : 0;
 
-                        FontSize = 40,
-                        VerticalAlignment = VerticalAlignment.Center,
-                        HorizontalAlignment = HorizontalAlignment.Center
 
-                    };
-                    var input = new TextBox //пофіксити input 
-                    {
-                        FontSize = 40,
-                        MaxLength = 1,
-                        Padding = new Thickness(0),
-                        TextAlignment = TextAlignment.Center,
-                        VerticalScrollBarVisibility = ScrollBarVisibility.Disabled,
 
-                        VerticalContentAlignment = VerticalAlignment.Center,
-                        HorizontalContentAlignment = HorizontalAlignment.Center
-
-                        //BorderBrush = Brushes.Gray;
-                        //BorderThickness = new Thickness(1);
-                    };
-                    text.Text = board[r, c].value.ToString();
                     if (board[r, c].isLocked == false)
                     {
+                        var input = new TextBox
+                        {
+                            Style = (Style)Application.Current.FindResource("SudokuInputStyle"),
+                            BorderThickness = new Thickness(left, top, right, bottom),
+                            Tag = new { Row = r, Column = c }
+                        };
+                        input.TextChanged += OnCellTextChanged;
                         Grid.SetRow(input, r);
                         Grid.SetColumn(input, c);
 
@@ -86,10 +77,16 @@ namespace Sudoku.WPF
                     }
                     else
                     {
+                        var lable = new Label
+                        {
+                            Content = board[r, c].value,
+                            Style = (Style)Application.Current.FindResource("SudokuLabelStyle"),    
+                            BorderThickness = new Thickness(left, top, right, bottom)
+                        };
 
-                        Grid.SetRow(text, r);
-                        Grid.SetColumn(text, c);
-                        grid.Children.Add(text);
+                        Grid.SetRow(lable, r);
+                        Grid.SetColumn(lable, c);
+                        grid.Children.Add(lable);
                     }
 
                 }
@@ -98,87 +95,34 @@ namespace Sudoku.WPF
             this.Content = grid;
         }
 
-        private void Start(string difficulty)
+        private void OnCellTextChanged(object sender, TextChangedEventArgs e)
         {
-            Difficulty(difficulty);
+            var textBox = sender as TextBox;
 
-            while (!_isGameOver)
+            if(textBox == null || string.IsNullOrEmpty(textBox.Text))
             {
+                textBox.Background = Brushes.White;
+                return;
+            }
 
-                Console.WriteLine("Mistakes Coount := " + _countMistakes);
-                Console.WriteLine("----------------------");
-                _board.WriteBoard();
-                Console.WriteLine("----------------------");
+            dynamic position = textBox.Tag;
 
-                Console.WriteLine();
+            int r = position.Row;
+            int c = position.Column;
 
-                Console.Write("Enter row:=");
-                if (!int.TryParse(Console.ReadLine(), out int indexRow))
-                    Console.WriteLine("Its not a number");
+            char value = textBox.Text[0];
 
-                Console.Write("Enter column:=");
-                if (!int.TryParse(Console.ReadLine(), out int indexColumn))
-                    Console.WriteLine("Its not a number");
+            _board.UpdateBoard(r, c, value);
 
-                Console.Write("Enter value:=");
-                if (!char.TryParse(Console.ReadLine(), out char value))
-                    Console.WriteLine("Its not a number");
-
-                Console.WriteLine();
-
-                Console.Clear();
-
-                _board.UpdateBoard(indexRow - 1, indexColumn - 1, value);
-                if (!_rules.IsValidSudoku(_board.GetBoard()))
-                {
-                    _countMistakes++;
-                    Console.WriteLine("try again");
-                }
-
+            if (!_rules.IsValidSudoku(_board.GetBoard()))
+            {
+                textBox.Background = Brushes.Red;
+                _countMistakes++;
             }
 
         }
 
 
-        private void Difficulty(string difficulty)
-        {
 
-            var dif = 0;
-            var locked = 35;
-            if (difficulty == "Normal")
-            {
-                dif = 1;
-                locked = 30;
-            }
-            if (difficulty == "Hard")
-            {
-                dif = 2;
-                locked = 25;
-            }
-
-            var board = _board.GetBoard();
-
-            var deleted = 0;
-
-            var empty = -1;
-
-            while (deleted != 81 - locked/* || empty != dif*/)
-            {
-                var randomCell = _random.Next(0, 81);
-
-                var Celli = randomCell % 9;
-                var Cellj = randomCell / 9;
-
-                if (board[Celli, Cellj].value != '.')
-                {
-                    board[Celli, Cellj] = new Cell('.');
-                    deleted++;
-                }
-                else
-                    continue;
-
-            }
-
-        }
     }
 }

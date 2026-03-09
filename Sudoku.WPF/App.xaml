@@ -4,6 +4,25 @@
              xmlns:local="clr-namespace:Sudoku.WPF"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        
+        <Style x:Key="SudokuCellStyle" TargetType="Control">
+            <Setter Property="FontSize" Value="40"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="0"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="BorderBrush" Value="Black"/>
+        </Style>
+
+        <Style x:Key="SudokuInputStyle" TargetType="TextBox" BasedOn="{StaticResource SudokuCellStyle}">
+            <Setter Property="MaxLength" Value="1"/>
+            <Setter Property="Background" Value="White"/>
+        </Style>
+
+        <Style x:Key="SudokuLabelStyle" TargetType="Label" BasedOn="{StaticResource SudokuCellStyle}">
+           
+        </Style>
+
+
     </Application.Resources>
 </Application>

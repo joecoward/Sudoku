@@ -1,7 +1,12 @@
-﻿namespace Sudoku.Game.BoardSettings
+﻿
+namespace Sudoku.Game.BoardSettings
 {
     public class Board : BoardConfiguration,  IBoard
     {
+        public Board()
+        {
+        }
+
         public void WriteBoard()
         {
             for (int i = 0; i < Row; i++)
