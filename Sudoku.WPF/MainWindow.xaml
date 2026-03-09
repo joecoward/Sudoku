@@ -5,7 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Sudoku.WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="500" Width="500">
+        Title="MainWindow" Height="550" Width="470">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Name="TimerDisplay"
+               Grid.Row = "0"
+               Text="{Binding Timer.TimeDisplay}"
+               FontSize="20"
+               Margin="4,18,400,0"
+                   />
+        <TextBlock x:Name="MistacksCounter"
+               Grid.Row = "0"
+               Text="{Binding Mistakes.MistakeCounter}"
+               FontSize="20"
+               Margin="223,18,210,0"
+                   />
+
+        <ContentControl x:Name="GameControl" 
+                    Grid.Row="1"
+                    Height="470" 
+                    Width="470"
+                    VerticalAlignment="Bottom"
+                    HorizontalAlignment="Center"/>
     </Grid>
 </Window>

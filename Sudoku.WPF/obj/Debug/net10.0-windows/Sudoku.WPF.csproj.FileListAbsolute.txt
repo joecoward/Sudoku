@@ -81,3 +81,15 @@ C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\obj\Debug\net1
 C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\obj\Debug\net10.0-windows\Sudoku.WPF.genruntimeconfig.cache
 C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\obj\Debug\net10.0-windows\ref\Sudoku.WPF.dll
 C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\obj\Debug\net10.0-windows\App.baml
+D:\VS\Sudoku.repo\Sudoku.WPF\obj\Debug\net10.0-windows\App.baml
+D:\VS\Sudoku.repo\Sudoku.WPF\obj\Debug\net10.0-windows\Sudoku.WPF.sourcelink.json
+D:\VS\Sudoku.repo\Sudoku.WPF\bin\Debug\net10.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\VS\Sudoku.repo\Sudoku.WPF\bin\Debug\net10.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\VS\Sudoku.repo\Sudoku.WPF\bin\Debug\net10.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\VS\Sudoku.repo\Sudoku.WPF\bin\Debug\net10.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\VS\Sudoku.repo\Sudoku.WPF\bin\Debug\net10.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\VS\Sudoku.repo\Sudoku.WPF\bin\Debug\net10.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\VS\Sudoku.repo\Sudoku.WPF\bin\Debug\net10.0-windows\Microsoft.Extensions.Logging.dll
+D:\VS\Sudoku.repo\Sudoku.WPF\bin\Debug\net10.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\VS\Sudoku.repo\Sudoku.WPF\bin\Debug\net10.0-windows\Microsoft.Extensions.Options.dll
+D:\VS\Sudoku.repo\Sudoku.WPF\bin\Debug\net10.0-windows\Microsoft.Extensions.Primitives.dll

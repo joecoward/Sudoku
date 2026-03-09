@@ -1,8 +1,10 @@
 ﻿using Sudoku.Game.BoardSettings;
 using Sudoku.Game.Rule;
+using Sudoku.WPF.ViewModels;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
+using System.Windows.Threading;
 
 namespace Sudoku.WPF
 {
@@ -11,30 +13,31 @@ namespace Sudoku.WPF
     /// </summary>
     public partial class MainWindow : Window
     {
-        private Random _random = new Random();
 
-        private IBoard _board = new Board();
-
-        private IRules _rules = new Rules();
+        private readonly MainViewModel _viewModel;
 
         private bool _isGameOver = false;
 
-        private int _countMistakes = 0;
-        public MainWindow()
+
+
+        public MainWindow(MainViewModel mainModel)
         {
             InitializeComponent();
+
+            _viewModel = mainModel;
+            this.DataContext = _viewModel;
+
             CreateSudokuGrid();
         }
 
         private void CreateSudokuGrid()
         {
-            GameDifficulty _gameDifficulty = new GameDifficulty(_board);
-            _gameDifficulty.Difficulty("");
 
             var grid = new Grid()
             {
                 Height = 450,
                 Width = 450,
+                
             };
             
 
@@ -45,7 +48,7 @@ namespace Sudoku.WPF
                 grid.ColumnDefinitions.Add(new ColumnDefinition());
             }
 
-            var board = _board.GetBoard();
+            var board = _viewModel.Board.GetBoard();
             
             for (int r = 0; r < 9; r++)
             {
@@ -92,14 +95,21 @@ namespace Sudoku.WPF
                 }
             }
 
-            this.Content = grid;
+            GameControl.Content = grid;
         }
 
         private void OnCellTextChanged(object sender, TextChangedEventArgs e)
         {
             var textBox = sender as TextBox;
 
-            if(textBox == null || string.IsNullOrEmpty(textBox.Text))
+            var board = _viewModel.Board;
+
+            var rules = _viewModel.Rules;
+
+            var counter = _viewModel.Mistakes;
+
+
+            if (textBox == null || string.IsNullOrEmpty(textBox.Text))
             {
                 textBox.Background = Brushes.White;
                 return;
@@ -112,12 +122,12 @@ namespace Sudoku.WPF
 
             char value = textBox.Text[0];
 
-            _board.UpdateBoard(r, c, value);
+            board.UpdateBoard(r, c, value);
 
-            if (!_rules.IsValidSudoku(_board.GetBoard()))
+            if (!rules.IsValidSudoku(board.GetBoard()))
             {
                 textBox.Background = Brushes.Red;
-                _countMistakes++;
+                counter.MistakeCounter += 1;
             }
 
         }

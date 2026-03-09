@@ -41,3 +41,16 @@ C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku\obj\Debug\net10.0\
 C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku\obj\Debug\net10.0\Sudoku.pdb
 C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku\obj\Debug\net10.0\Sudoku.genruntimeconfig.cache
 C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku\obj\Debug\net10.0\ref\Sudoku.dll
+D:\VS\Sudoku.repo\Sudoku\obj\Debug\net10.0\Sudoku.sourcelink.json
+D:\VS\Sudoku.repo\Sudoku\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+D:\VS\Sudoku.repo\Sudoku\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\VS\Sudoku.repo\Sudoku\bin\Debug\net10.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\VS\Sudoku.repo\Sudoku\bin\Debug\net10.0\Microsoft.Extensions.Caching.Memory.dll
+D:\VS\Sudoku.repo\Sudoku\bin\Debug\net10.0\Microsoft.Extensions.DependencyInjection.dll
+D:\VS\Sudoku.repo\Sudoku\bin\Debug\net10.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\VS\Sudoku.repo\Sudoku\bin\Debug\net10.0\Microsoft.Extensions.Logging.dll
+D:\VS\Sudoku.repo\Sudoku\bin\Debug\net10.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\VS\Sudoku.repo\Sudoku\bin\Debug\net10.0\Microsoft.Extensions.Options.dll
+D:\VS\Sudoku.repo\Sudoku\bin\Debug\net10.0\Microsoft.Extensions.Primitives.dll
+D:\VS\Sudoku.repo\Sudoku\obj\Debug\net10.0\Sudoku.csproj.AssemblyReference.cache
+D:\VS\Sudoku.repo\Sudoku\obj\Debug\net10.0\Sudoku.csproj.Up2Date

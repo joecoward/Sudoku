@@ -1,7 +1,52 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\VS\\Sudoku.repo\\Sudoku\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{608CBA14-E863-74E7-C50B-AACBC75A85AF}|Sudoku.csproj|d:\\vs\\sudoku.repo\\sudoku\\data\\sudokudbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{608CBA14-E863-74E7-C50B-AACBC75A85AF}|Sudoku.csproj|solutionrelative:data\\sudokudbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{608CBA14-E863-74E7-C50B-AACBC75A85AF}|Sudoku.csproj|d:\\vs\\sudoku.repo\\sudoku\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{608CBA14-E863-74E7-C50B-AACBC75A85AF}|Sudoku.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{608CBA14-E863-74E7-C50B-AACBC75A85AF}|Sudoku.csproj|d:\\vs\\sudoku.repo\\sudoku\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{608CBA14-E863-74E7-C50B-AACBC75A85AF}|Sudoku.csproj|solutionrelative:models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{608CBA14-E863-74E7-C50B-AACBC75A85AF}|Sudoku.csproj|d:\\vs\\sudoku.repo\\sudoku\\entity\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{608CBA14-E863-74E7-C50B-AACBC75A85AF}|Sudoku.csproj|solutionrelative:entity\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{608CBA14-E863-74E7-C50B-AACBC75A85AF}|Sudoku.csproj|d:\\vs\\sudoku.repo\\sudoku\\entity\\gameentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{608CBA14-E863-74E7-C50B-AACBC75A85AF}|Sudoku.csproj|solutionrelative:entity\\gameentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63522ABB-840F-485D-BB8C-FA9B1DD9C8C1}|..\\Sudoku.WPF\\Sudoku.WPF.csproj|d:\\vs\\sudoku.repo\\sudoku.wpf\\viewmodels\\timerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63522ABB-840F-485D-BB8C-FA9B1DD9C8C1}|..\\Sudoku.WPF\\Sudoku.WPF.csproj|d:\\vs\\sudoku.repo\\sudoku.wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63522ABB-840F-485D-BB8C-FA9B1DD9C8C1}|..\\Sudoku.WPF\\Sudoku.WPF.csproj|d:\\vs\\sudoku.repo\\sudoku.wpf\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63522ABB-840F-485D-BB8C-FA9B1DD9C8C1}|..\\Sudoku.WPF\\Sudoku.WPF.csproj|d:\\vs\\sudoku.repo\\sudoku.wpf\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63522ABB-840F-485D-BB8C-FA9B1DD9C8C1}|..\\Sudoku.WPF\\Sudoku.WPF.csproj|d:\\vs\\sudoku.repo\\sudoku.wpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63522ABB-840F-485D-BB8C-FA9B1DD9C8C1}|..\\Sudoku.WPF\\Sudoku.WPF.csproj|d:\\vs\\sudoku.repo\\sudoku.wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63522ABB-840F-485D-BB8C-FA9B1DD9C8C1}|..\\Sudoku.WPF\\Sudoku.WPF.csproj|d:\\vs\\sudoku.repo\\sudoku.wpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63522ABB-840F-485D-BB8C-FA9B1DD9C8C1}|..\\Sudoku.WPF\\Sudoku.WPF.csproj|d:\\vs\\sudoku.repo\\sudoku.wpf\\viewmodels\\mistakecounterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +54,178 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SudokuDbContext.cs",
+              "DocumentMoniker": "D:\\VS\\Sudoku.repo\\Sudoku\\Data\\SudokuDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\SudokuDbContext.cs",
+              "ToolTip": "D:\\VS\\Sudoku.repo\\Sudoku\\Data\\SudokuDbContext.cs",
+              "RelativeToolTip": "Data\\SudokuDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T19:48:26.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameEntity.cs",
+              "DocumentMoniker": "D:\\VS\\Sudoku.repo\\Sudoku\\Entity\\GameEntity.cs",
+              "RelativeDocumentMoniker": "Entity\\GameEntity.cs",
+              "ToolTip": "D:\\VS\\Sudoku.repo\\Sudoku\\Entity\\GameEntity.cs",
+              "RelativeToolTip": "Entity\\GameEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T19:41:36.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserEntity.cs",
+              "DocumentMoniker": "D:\\VS\\Sudoku.repo\\Sudoku\\Entity\\UserEntity.cs",
+              "RelativeDocumentMoniker": "Entity\\UserEntity.cs",
+              "ToolTip": "D:\\VS\\Sudoku.repo\\Sudoku\\Entity\\UserEntity.cs",
+              "RelativeToolTip": "Entity\\UserEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T19:37:02.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Game.cs",
+              "DocumentMoniker": "D:\\VS\\Sudoku.repo\\Sudoku\\Models\\Game.cs",
+              "RelativeDocumentMoniker": "Models\\Game.cs",
+              "ToolTip": "D:\\VS\\Sudoku.repo\\Sudoku\\Models\\Game.cs",
+              "RelativeToolTip": "Models\\Game.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T19:32:31.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\VS\\Sudoku.repo\\Sudoku\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\VS\\Sudoku.repo\\Sudoku\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T19:28:47.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\VS\\Sudoku.repo\\Sudoku.WPF\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "..\\Sudoku.WPF\\AssemblyInfo.cs",
+              "ToolTip": "D:\\VS\\Sudoku.repo\\Sudoku.WPF\\AssemblyInfo.cs",
+              "RelativeToolTip": "..\\Sudoku.WPF\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T18:45:11.498Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\VS\\Sudoku.repo\\Sudoku.WPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "..\\Sudoku.WPF\\MainWindow.xaml",
+              "ToolTip": "D:\\VS\\Sudoku.repo\\Sudoku.WPF\\MainWindow.xaml",
+              "RelativeToolTip": "..\\Sudoku.WPF\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-09T15:44:23.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TimerViewModel.cs",
+              "DocumentMoniker": "D:\\VS\\Sudoku.repo\\Sudoku.WPF\\ViewModels\\TimerViewModel.cs",
+              "RelativeDocumentMoniker": "..\\Sudoku.WPF\\ViewModels\\TimerViewModel.cs",
+              "ToolTip": "D:\\VS\\Sudoku.repo\\Sudoku.WPF\\ViewModels\\TimerViewModel.cs",
+              "RelativeToolTip": "..\\Sudoku.WPF\\ViewModels\\TimerViewModel.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T18:46:31.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\VS\\Sudoku.repo\\Sudoku.WPF\\App.xaml.cs",
+              "RelativeDocumentMoniker": "..\\Sudoku.WPF\\App.xaml.cs",
+              "ToolTip": "D:\\VS\\Sudoku.repo\\Sudoku.WPF\\App.xaml.cs",
+              "RelativeToolTip": "..\\Sudoku.WPF\\App.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAArwCQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T15:27:08.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\VS\\Sudoku.repo\\Sudoku.WPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\Sudoku.WPF\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\VS\\Sudoku.repo\\Sudoku.WPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "..\\Sudoku.WPF\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowIEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T15:18:00.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "D:\\VS\\Sudoku.repo\\Sudoku.WPF\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "..\\Sudoku.WPF\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "D:\\VS\\Sudoku.repo\\Sudoku.WPF\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "..\\Sudoku.WPF\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAYwBwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T18:31:43.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\VS\\Sudoku.repo\\Sudoku.WPF\\App.xaml",
+              "RelativeDocumentMoniker": "..\\Sudoku.WPF\\App.xaml",
+              "ToolTip": "D:\\VS\\Sudoku.repo\\Sudoku.WPF\\App.xaml",
+              "RelativeToolTip": "..\\Sudoku.WPF\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-09T18:20:09.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MistakeCounterViewModel.cs",
+              "DocumentMoniker": "D:\\VS\\Sudoku.repo\\Sudoku.WPF\\ViewModels\\MistakeCounterViewModel.cs",
+              "RelativeDocumentMoniker": "..\\Sudoku.WPF\\ViewModels\\MistakeCounterViewModel.cs",
+              "ToolTip": "D:\\VS\\Sudoku.repo\\Sudoku.WPF\\ViewModels\\MistakeCounterViewModel.cs",
+              "RelativeToolTip": "..\\Sudoku.WPF\\ViewModels\\MistakeCounterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T18:08:01.174Z",
+              "EditorCaption": ""
             }
           ]
         }
