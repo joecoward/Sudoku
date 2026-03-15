@@ -53,6 +53,7 @@
                    />
         
         <Button x:Name="Registration"
+                Click="Registration_Click"
                 Content="Registration"
                 VerticalAlignment="Top"
                 Width="70"

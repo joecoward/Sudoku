@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\VS\Sudoku.repo\Sudoku.WPF\obj\Debug\net10.0-windows\
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\obj\Debug\net10.0-windows\
 Sudoku.WPF
 none
 false
 TRACE;DEBUG;NET;NET10_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NET10_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-D:\VS\Sudoku.repo\Sudoku.WPF\App.xaml
-2-941460372
+C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\App.xaml
+3-1872565233
 
-13-1955861798
-225-1205122178
-MainWindow.xaml;MenuWindow.xaml;
+152066891025
+225722065267
+MainWindow.xaml;MenuWindow.xaml;RegistrationWindow.xaml;
 
-True
+False
 

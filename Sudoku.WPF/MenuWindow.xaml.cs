@@ -53,5 +53,11 @@ namespace Sudoku.WPF
 
             this.Close();
         }
+
+        private void Registration_Click(object sender, RoutedEventArgs e)
+        {
+            var registrationWindow = _serviceProvider.GetRequiredService<RegistrationWindow>();
+            registrationWindow.ShowDialog();
+        }
     }
 }

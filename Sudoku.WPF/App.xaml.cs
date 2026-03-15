@@ -43,14 +43,19 @@ namespace Sudoku.WPF
             
 
             services.AddSingleton<IGameDal, GameDal>();
+            services.AddSingleton<IUserDal, UserDal>();
 
             services.AddTransient<IDialogService, DialogService>();
+
             services.AddTransient<MistakeCounterViewModel>();
             services.AddTransient<MainViewModel>();
             services.AddTransient<TimerViewModel>();
-            services.AddTransient<MainWindow>();
+            services.AddTransient<RegistrationViewMode>();
 
+            services.AddTransient<MainWindow>();
             services.AddTransient<MenuWindow>();
+            services.AddTransient<RegistrationWindow>();
+            
         }
 
         protected override void OnStartup(StartupEventArgs e)

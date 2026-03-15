@@ -3,11 +3,25 @@
   "WorkspaceRootPath": "C:\\Users\\dorbi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Sudoku\\Sudoku\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{63522ABB-840F-485D-BB8C-FA9B1DD9C8C1}|..\\Sudoku.WPF\\Sudoku.WPF.csproj|c:\\users\\dorbi\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\sudoku\\sudoku.wpf\\viewmodels\\registrationviewmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63522ABB-840F-485D-BB8C-FA9B1DD9C8C1}|..\\Sudoku.WPF\\Sudoku.WPF.csproj|c:\\users\\dorbi\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\sudoku\\sudoku.wpf\\registrationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63522ABB-840F-485D-BB8C-FA9B1DD9C8C1}|..\\Sudoku.WPF\\Sudoku.WPF.csproj|c:\\users\\dorbi\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\sudoku\\sudoku.wpf\\registrationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63522ABB-840F-485D-BB8C-FA9B1DD9C8C1}|..\\Sudoku.WPF\\Sudoku.WPF.csproj|c:\\users\\dorbi\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\sudoku\\sudoku.wpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63522ABB-840F-485D-BB8C-FA9B1DD9C8C1}|..\\Sudoku.WPF\\Sudoku.WPF.csproj|c:\\users\\dorbi\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\sudoku\\sudoku.wpf\\menuwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{63522ABB-840F-485D-BB8C-FA9B1DD9C8C1}|..\\Sudoku.WPF\\Sudoku.WPF.csproj|c:\\users\\dorbi\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\sudoku\\sudoku.wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{608CBA14-E863-74E7-C50B-AACBC75A85AF}|Sudoku.csproj|c:\\users\\dorbi\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\sudoku\\sudoku\\game\\gameengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{608CBA14-E863-74E7-C50B-AACBC75A85AF}|Sudoku.csproj|solutionrelative:game\\gameengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{63522ABB-840F-485D-BB8C-FA9B1DD9C8C1}|..\\Sudoku.WPF\\Sudoku.WPF.csproj|c:\\users\\dorbi\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\sudoku\\sudoku.wpf\\menuwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{608CBA14-E863-74E7-C50B-AACBC75A85AF}|Sudoku.csproj|c:\\users\\dorbi\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\sudoku\\sudoku\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,39 +35,100 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GameEngine.cs",
-              "DocumentMoniker": "C:\\Users\\dorbi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Sudoku\\Sudoku\\Game\\GameEngine.cs",
-              "RelativeDocumentMoniker": "Game\\GameEngine.cs",
-              "ToolTip": "C:\\Users\\dorbi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Sudoku\\Sudoku\\Game\\GameEngine.cs",
-              "RelativeToolTip": "Game\\GameEngine.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAQwBEAAAAOAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "RegistrationViewMode.cs",
+              "DocumentMoniker": "C:\\Users\\dorbi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Sudoku\\Sudoku.WPF\\ViewModels\\RegistrationViewMode.cs",
+              "RelativeDocumentMoniker": "..\\Sudoku.WPF\\ViewModels\\RegistrationViewMode.cs",
+              "ToolTip": "C:\\Users\\dorbi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Sudoku\\Sudoku.WPF\\ViewModels\\RegistrationViewMode.cs",
+              "RelativeToolTip": "..\\Sudoku.WPF\\ViewModels\\RegistrationViewMode.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T14:31:51.397Z",
-              "IsPinned": true,
+              "WhenOpened": "2026-03-15T17:52:57.89Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\dorbi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Sudoku\\Sudoku.WPF\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "..\\Sudoku.WPF\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\dorbi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Sudoku\\Sudoku.WPF\\MainWindow.xaml.cs",
               "RelativeToolTip": "..\\Sudoku.WPF\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAqwB8AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T15:46:01.135Z",
-              "IsPinned": true,
+              "WhenOpened": "2026-03-15T17:41:57.71Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "RegistrationWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\dorbi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Sudoku\\Sudoku.WPF\\RegistrationWindow.xaml",
+              "RelativeDocumentMoniker": "..\\Sudoku.WPF\\RegistrationWindow.xaml",
+              "ToolTip": "C:\\Users\\dorbi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Sudoku\\Sudoku.WPF\\RegistrationWindow.xaml",
+              "RelativeToolTip": "..\\Sudoku.WPF\\RegistrationWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-15T17:30:20.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegistrationWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\dorbi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Sudoku\\Sudoku.WPF\\RegistrationWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\Sudoku.WPF\\RegistrationWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\dorbi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Sudoku\\Sudoku.WPF\\RegistrationWindow.xaml.cs",
+              "RelativeToolTip": "..\\Sudoku.WPF\\RegistrationWindow.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T17:30:19.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\dorbi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Sudoku\\Sudoku.WPF\\App.xaml.cs",
+              "RelativeDocumentMoniker": "..\\Sudoku.WPF\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\dorbi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Sudoku\\Sudoku.WPF\\App.xaml.cs",
+              "RelativeToolTip": "..\\Sudoku.WPF\\App.xaml.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwDwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T17:25:02.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MenuWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\dorbi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Sudoku\\Sudoku.WPF\\MenuWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\Sudoku.WPF\\MenuWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\dorbi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Sudoku\\Sudoku.WPF\\MenuWindow.xaml.cs",
+              "RelativeToolTip": "..\\Sudoku.WPF\\MenuWindow.xaml.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAowD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T17:23:48.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MenuWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\dorbi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Sudoku\\Sudoku.WPF\\MenuWindow.xaml",
+              "RelativeDocumentMoniker": "..\\Sudoku.WPF\\MenuWindow.xaml",
+              "ToolTip": "C:\\Users\\dorbi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Sudoku\\Sudoku.WPF\\MenuWindow.xaml",
+              "RelativeToolTip": "..\\Sudoku.WPF\\MenuWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-15T17:23:44.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dorbi\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Sudoku\\Sudoku\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -61,8 +136,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T15:11:05.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-06T15:11:05.205Z"
             }
           ]
         }
