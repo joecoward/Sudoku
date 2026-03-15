@@ -1,19 +1,50 @@
-﻿using System.Numerics;
+﻿using Sudoku.Game.Rule;
 
 namespace Sudoku.Game.BoardSettings
 {
     public class BoardConfiguration 
     {
-        private readonly Random _random = new Random();
+        private readonly Random _random;
         protected readonly int Column = 9;
         protected readonly int Row = 9;
         protected Cell[,] Field;
 
-        public BoardConfiguration()
+        private int _solutionsFound;
+        public BoardConfiguration(Random random)
         {
+            _random = random;
             BoardSetting();
         }
 
+        protected void Difficulty(int locked, int dif)
+        {
+            var deleted = 0;
+
+            var empty = -1;
+
+            while (deleted != 81 - locked/* || empty != dif*/)
+            {
+                var r = _random.Next(0, 9);
+                var c = _random.Next(0, 9);
+
+                if (Field[r, c].value != '.')
+                {
+                    var temp = Field[r, c].value;
+
+                    Field[r, c] = new Cell('.');
+
+                    if (SudokuSolver())
+                        deleted++;
+                    
+                    else
+                        Field[r, c].value = temp;
+                    
+                }
+                else
+                    continue;
+
+            }
+        }
         private void CreateBoard()
         {
             Field = new Cell[Column, Row];
@@ -99,27 +130,97 @@ namespace Sudoku.Game.BoardSettings
             var ran = _random.Next(0, 2);
 
             CreateBoard();
-            if(ran == 0)
-            {
-                TransposingBoard();
-                iteration++;
-            }
 
-            while(iteration!=10)
+            while(iteration!=100)
             {
-                ran = _random.Next(0, 2);
-                if(ran == 0)
+                ran = _random.Next(0, 3);
+                if (ran == 0)
+                {
+                    TransposingBoard();
+                    iteration++;
+                }
+                if (ran == 1)
                 {
                     SwapRows();
                     iteration++;
                 }
-                if(ran == 1)
+                if(ran == 2)
                 {
                     SwapColums();
                     iteration++;
                 }
 
             }
+        }
+
+        private bool SudokuSolver() //вкрав нагло
+        {
+            // 1. Копіюємо ігрове поле лише ОДИН раз перед початком рекурсії
+            char[,] testBoard = new char[9, 9];
+            for (int r = 0; r < 9; r++)
+                for (int c = 0; c < 9; c++)
+                    testBoard[r, c] = Field[r, c].value;
+
+            _solutionsFound = 0;
+            CountSolutions(testBoard);
+
+            // Судоку валідне, якщо воно має РІВНО ОДИН розв'язок
+            return _solutionsFound == 1;
+        }
+
+        private void CountSolutions(char[,] board)
+        {
+            // Якщо ми вже знайшли більше одного розв'язку, далі можна не шукати
+            if (_solutionsFound > 1) return;
+
+            int row = -1;
+            int col = -1;
+            bool isEmpty = false;
+
+            // Шукаємо першу порожню клітинку
+            for (int i = 0; i < 9; i++)
+            {
+                for (int j = 0; j < 9; j++)
+                {
+                    if (board[i, j] == '.')
+                    {
+                        row = i;
+                        col = j;
+                        isEmpty = true;
+                        break;
+                    }
+                }
+                if (isEmpty) break;
+            }
+
+            // Якщо порожніх клітинок немає — ми знайшли розв'язок!
+            if (!isEmpty)
+            {
+                _solutionsFound++;
+                return;
+            }
+
+            // Пробуємо підставити цифри від 1 до 9
+            for (char num = '1'; num <= '9'; num++)
+            {
+                if (IsSafe(board, row, col, num))
+                {
+                    board[row, col] = num;
+                    CountSolutions(board); // Рекурсивний виклик
+                    board[row, col] = '.'; // Відкат (Backtrack)
+                }
+            }
+        }
+
+        private bool IsSafe(char[,] board, int row, int col, char val) //вкрав нагло
+        {
+            for (int i = 0; i < 9; i++)
+            {
+                if (board[row, i] == val || board[i, col] == val ||
+                    board[row - row % 3 + i / 3, col - col % 3 + i % 3] == val)
+                    return false;
+            }
+            return true;
         }
     }
 }

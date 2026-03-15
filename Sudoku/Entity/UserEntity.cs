@@ -19,9 +19,9 @@ namespace Sudoku.Entity
         public string UserName { get; set; }
 
         [Column("password")]
-        public Guid Password { get; set; }
+        public string Password { get; set; }
 
         [Column("salt")]
-        public Guid Salt { get; set; }
+        public string Salt { get; set; }
     }
 }

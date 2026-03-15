@@ -1,5 +1,7 @@
 ﻿
+using Sudoku.Dal.Conc;
 using Sudoku.Game;
+using Sudoku.Models;
 
 namespace Sudoku
 {
@@ -7,8 +9,11 @@ namespace Sudoku
     {
         static void Main(string[] args)
         {
-            //var game = new GameEngine();            
-            //game.Start("Normal");
+            var dal = new UserDal();
+            var salt = Guid.NewGuid().ToByteArray();
+            var entity = new User();
+            entity.UserName = "Oleg";
+            dal.Create(entity, "12341234");
         }
 
     }

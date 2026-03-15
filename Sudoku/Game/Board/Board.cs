@@ -3,9 +3,9 @@ namespace Sudoku.Game.BoardSettings
 {
     public class Board : BoardConfiguration,  IBoard
     {
-        public Board()
-        {
-        }
+
+        public Board(Random random) : base(random)
+        { }
 
         public void WriteBoard()
         {
@@ -25,6 +25,24 @@ namespace Sudoku.Game.BoardSettings
         public void UpdateBoard(int indexRow, int indexColumn, char value , bool isLocked =false)
         {
             Field[indexRow, indexColumn] = new Cell(value,isLocked);
+        }
+
+        public bool IsGameEnd()
+        {
+            for (int r = 0; r < Row; r++)
+            {
+                for (int c = 0; c < Column; c++)
+                {
+                    if (Field[r, c].value == '.')
+                        return false;
+                }
+            }
+            return true;
+        }
+
+        public void GenerateLevel(int locked,int dif)
+        {
+            Difficulty(locked, dif);
         }
 
     }

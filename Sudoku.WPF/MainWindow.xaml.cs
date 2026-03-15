@@ -1,8 +1,10 @@
 ﻿using Sudoku.Game.BoardSettings;
 using Sudoku.Game.Rule;
+using Sudoku.WPF.Services.Abs;
 using Sudoku.WPF.ViewModels;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Documents;
 using System.Windows.Media;
 using System.Windows.Threading;
 
@@ -16,7 +18,6 @@ namespace Sudoku.WPF
 
         private readonly MainViewModel _viewModel;
 
-        private bool _isGameOver = false;
 
 
 
@@ -27,10 +28,10 @@ namespace Sudoku.WPF
             _viewModel = mainModel;
             this.DataContext = _viewModel;
 
-            CreateSudokuGrid();
+            //CreateSudokuGrid();
         }
 
-        private void CreateSudokuGrid()
+        public void CreateSudokuGrid()
         {
 
             var grid = new Grid()
@@ -48,7 +49,7 @@ namespace Sudoku.WPF
                 grid.ColumnDefinitions.Add(new ColumnDefinition());
             }
 
-            var board = _viewModel.Board.GetBoard();
+            var board = _viewModel.Engine.Board.GetBoard();
             
             for (int r = 0; r < 9; r++)
             {
@@ -102,11 +103,12 @@ namespace Sudoku.WPF
         {
             var textBox = sender as TextBox;
 
-            var board = _viewModel.Board;
+            var board = _viewModel.Engine.Board;
 
-            var rules = _viewModel.Rules;
+            var rules = _viewModel.Engine.Rules;
 
             var counter = _viewModel.Mistakes;
+
 
 
             if (textBox == null || string.IsNullOrEmpty(textBox.Text))
@@ -128,6 +130,11 @@ namespace Sudoku.WPF
             {
                 textBox.Background = Brushes.Red;
                 counter.MistakeCounter += 1;
+            }
+
+            if(_viewModel.CheckGameOver())
+            {
+                this.Close();  
             }
 
         }

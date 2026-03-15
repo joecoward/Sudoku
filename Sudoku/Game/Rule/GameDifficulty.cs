@@ -7,52 +7,38 @@ namespace Sudoku.Game.Rule
 {
     public class GameDifficulty
     {
-        private readonly IBoard _board;
-        private readonly Random _random = new Random();
 
-        public GameDifficulty(IBoard board)
-        {
-            _board = board;
-        }
-        public void Difficulty(string difficulty)
+        private string _difficulty;
+
+        public int[] SetDifficulty(string difficulty)
         {
 
             var dif = 0;
-            var locked = 35;
+            var locked = 50;
             if (difficulty == "Normal")
             {
                 dif = 1;
-                locked = 30;
+                locked = 45;
             }
             if (difficulty == "Hard")
             {
                 dif = 2;
-                locked = 25;
+                locked = 40;
             }
-
-            var board = _board.GetBoard();
-
-            var deleted = 0;
-
-            var empty = -1;
-
-            while (deleted != 81 - locked/* || empty != dif*/)
+            else
             {
-                var randomCell = _random.Next(0, 81);
-
-                var Celli = randomCell % 9;
-                var Cellj = randomCell / 9;
-
-                if (board[Celli, Cellj].value != '.')
-                {
-                    board[Celli, Cellj] = new Cell('.');
-                    deleted++;
-                }
-                else
-                    continue;
-
+                difficulty = "Easy";
             }
 
+            _difficulty = difficulty;
+
+            return [dif, locked];
+
+        }
+
+        public string GetDifficulty()
+        {
+            return _difficulty;
         }
     }
 }

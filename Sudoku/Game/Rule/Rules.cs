@@ -1,4 +1,4 @@
-﻿using Sudoku.Game.BoardSettings;
+﻿ using Sudoku.Game.BoardSettings;
 
 namespace Sudoku.Game.Rule
 {

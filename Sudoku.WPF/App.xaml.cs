@@ -1,6 +1,12 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using Sudoku.Dal.Conc;
+using Sudoku.Dal.Interfa;
+using Sudoku.Data;
+using Sudoku.Game;
 using Sudoku.Game.BoardSettings;
 using Sudoku.Game.Rule;
+using Sudoku.WPF.Services.Abs;
+using Sudoku.WPF.Services.Conc;
 using Sudoku.WPF.ViewModels;
 using System.Configuration;
 using System.Data;
@@ -24,6 +30,8 @@ namespace Sudoku.WPF
 
         private void ConfigureServices(ServiceCollection services)
         {
+            services.AddTransient<GameEngine>();
+
             services.AddSingleton<IBoard, Board>();
             services.AddSingleton<IRules, Rules>();
 
@@ -31,18 +39,25 @@ namespace Sudoku.WPF
 
             services.AddSingleton<GameDifficulty>();
 
+            services.AddDbContext<SudokuDbContext>();
+            
 
+            services.AddSingleton<IGameDal, GameDal>();
+
+            services.AddTransient<IDialogService, DialogService>();
             services.AddTransient<MistakeCounterViewModel>();
             services.AddTransient<MainViewModel>();
             services.AddTransient<TimerViewModel>();
             services.AddTransient<MainWindow>();
+
+            services.AddTransient<MenuWindow>();
         }
 
         protected override void OnStartup(StartupEventArgs e)
         {
             base.OnStartup(e);
-            var mainWindow = serviceProvider.GetService<MainWindow>();
-            mainWindow.Show();
+            var menuWindow = serviceProvider.GetService<MenuWindow>();
+            menuWindow.Show();
         }
     }
 

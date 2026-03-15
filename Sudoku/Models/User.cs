@@ -9,7 +9,5 @@ namespace Sudoku.Models
         public int Id { get; set; }
 
         public string UserName { get; set; }
-
-        public Guid Password { get; set; }
     }
 }

@@ -9,6 +9,9 @@ namespace Sudoku.Game.BoardSettings
         public void UpdateBoard(int indexRow,int indexColumn , char value ,bool isLocked = false);
         public void WriteBoard();
         public Cell[,] GetBoard();
+        public void GenerateLevel(int locked, int dif);
+
+        public bool IsGameEnd();
 
 
     }
