@@ -65,5 +65,38 @@ namespace Sudoku.Dal.Conc
             }
             return res.ToString();
         }
+
+        public bool IsUserNameFree(string userName)
+        {
+            using(var contex = new SudokuDbContext())
+            {
+                var user = contex.Users.FirstOrDefault(x => x.UserName == userName);
+
+                if (user != null)
+                    return false;
+                
+                
+            }
+            return true;
+        }
+
+        //public User SearchByLogin(string login , string password)
+        //{
+        //    using (var context = new SudokuDbContext())
+        //    {
+        //        var user = context.Users.FirstOrDefault(x => x.UserName == login);
+
+        //        if (user == null)
+        //            throw new Exception();
+
+        //        if(user.Password == HashPassword(password,user.Salt))
+        //    }
+        //}
+
+        public User ToDto(UserEntity user)
+        {
+           return new User { Id = user.Id, UserName = user.UserName };
+
+        }
     }
 }

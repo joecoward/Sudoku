@@ -1,5 +1,8 @@
 ﻿using Sudoku.WPF.ViewModels;
 using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Media;
+using System.Xml;
 
 namespace Sudoku.WPF
 {
@@ -17,8 +20,10 @@ namespace Sudoku.WPF
 
         private void Register_Click(object sender, RoutedEventArgs e)
         {
-            var login = TbLogin.Text;
+            if (_viewModel.Register(TbLogin.Text, PbPassword.Password))
+                this.Close();
             
         }
+
     }
 }

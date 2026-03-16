@@ -14,14 +14,13 @@
                        Margin="0,50"
                        />
             <TextBlock FontSize="20"
-                       Name="TbLogin"
                        Text="Login"
                        HorizontalAlignment="Center"
                        
                        />
-            <TextBox x:Name="Login"
-                     
+            <TextBox x:Name="TbLogin"
                      Margin="100,10,100,0"/>
+            
             <TextBlock FontSize="20"
                        Text="Password"
                        HorizontalAlignment="Center"

@@ -51,10 +51,12 @@ namespace Sudoku.WPF
             services.AddTransient<MainViewModel>();
             services.AddTransient<TimerViewModel>();
             services.AddTransient<RegistrationViewMode>();
+            services.AddTransient<LoginViewModel>();
 
             services.AddTransient<MainWindow>();
             services.AddTransient<MenuWindow>();
             services.AddTransient<RegistrationWindow>();
+            services.AddTransient<LogInWindow>();
             
         }
 

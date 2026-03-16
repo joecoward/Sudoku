@@ -345,3 +345,7 @@ C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\obj\Debug\net1
 C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\obj\Debug\net10.0-windows\Sudoku.WPF.pdb
 C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\obj\Debug\net10.0-windows\Sudoku.WPF.genruntimeconfig.cache
 C:\Users\dorbi\OneDrive\Рабочий стол\Sudoku\Sudoku.WPF\obj\Debug\net10.0-windows\ref\Sudoku.WPF.dll
+D:\VS\Sudoku.repo\Sudoku.WPF\obj\Debug\net10.0-windows\RegistrationWindow.g.cs
+D:\VS\Sudoku.repo\Sudoku.WPF\obj\Debug\net10.0-windows\RegistrationWindow.baml
+D:\VS\Sudoku.repo\Sudoku.WPF\obj\Debug\net10.0-windows\LogInWindow.g.cs
+D:\VS\Sudoku.repo\Sudoku.WPF\obj\Debug\net10.0-windows\LogInWindow.baml

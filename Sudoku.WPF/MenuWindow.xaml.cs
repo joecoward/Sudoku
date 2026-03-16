@@ -59,5 +59,11 @@ namespace Sudoku.WPF
             var registrationWindow = _serviceProvider.GetRequiredService<RegistrationWindow>();
             registrationWindow.ShowDialog();
         }
+
+        private void Login_Click(object sender, RoutedEventArgs e)
+        {
+            var loginWindow = _serviceProvider.GetRequiredService<LogInWindow>();
+            loginWindow.ShowDialog();
+        }
     }
 }

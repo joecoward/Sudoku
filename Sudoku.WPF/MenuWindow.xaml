@@ -62,6 +62,7 @@
         
         <Button x:Name="Login"
         Content="Login"
+        Click="Login_Click"
         VerticalAlignment="Top"
         Width="40"
         Height="20"
